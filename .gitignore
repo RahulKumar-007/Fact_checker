@@ -1,0 +1,106 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+# Pre-commit hooks built wheels
+.tox/.tmp/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so shouldn't be committed.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+junit*.xml
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Streamlit
+.streamlit/
+# config.toml # Uncomment if you have a local config.toml you don't want public
+
+# Application-specific cache, database, and history files
+# These are generated at runtime and should not be version controlled
+# if they are meant to be ephemeral or initialized on first run.
+cache_data/
+knowledge_base_db/
+fact_check_history.pkl
+knowledge_base/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.project
+*.pydevproject
+.DS_Store
+Thumbs.db
+
+# Operating System Files
+*.swp
+*~
+._*
+
+# Other common files
+*.log
+local_settings.py # If you use local settings files
+*.sqlite3 # If you have other sqlite databases you don't want to commit
+*.db
+
+# Model files (if downloaded locally and large)
+# e.g., HuggingFace model cache, though usually handled by library paths
+# .cache/huggingface/ # Be cautious with broad .cache ignores
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# If you use any specific build tools or temporary files, add them here
+# e.g., temp/
