@@ -7,10 +7,9 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 sentence-transformers==2.2.2
 huggingface-hub~=0.17.0
-pysqlite3-binary  # Add this line
+pysqlite3-binary==0.5.3  # Pin to this specific version
 chromadb==0.4.22
 plotly==5.18.0
 pandas==2.1.3
 streamlit-agraph==0.0.45
 duckduckgo-search
-# torch (usually a transitive dependency, but list if issues persist)
