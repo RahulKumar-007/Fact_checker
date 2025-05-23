@@ -1,0 +1,20 @@
+.git
+.gitignore
+.dockerignore
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+env/
+ENV/
+cache_data/
+knowledge_base_db/
+fact_check_history.pkl
+*.DS_Store
+.vscode/
+.idea/
+README.md # Optional, can be excluded to reduce image size
+# Add other local files/folders not needed in the Docker image
