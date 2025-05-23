@@ -6,12 +6,11 @@ python-dotenv==1.0.0
 requests==2.31.0
 beautifulsoup4==4.12.2
 sentence-transformers==2.2.2
-huggingface-hub~=0.17.0  # Pinning huggingface-hub (e.g., to allow 0.17.x)
-# or you can be more specific like: huggingface-hub==0.17.3
+huggingface-hub~=0.17.0
+pysqlite3-binary  # Add this line
 chromadb==0.4.22
 plotly==5.18.0
 pandas==2.1.3
 streamlit-agraph==0.0.45
 duckduckgo-search
-# Ensure torch is also listed if issues persist, sentence-transformers should bring it
-# torch
+# torch (usually a transitive dependency, but list if issues persist)
