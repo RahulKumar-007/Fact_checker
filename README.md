@@ -3,7 +3,12 @@
 
 This project is a Streamlit web application that leverages Large Language Models (LLMs), web search capabilities, a local knowledge base, and source reliability assessment to autonomously fact-check claims.
 
-**[Link to Deployed App - e.g., your-app-name.streamlit.app](https://your-app-name.streamlit.app)** (Replace with your actual link once deployed)
+# Demo 
+
+
+
+
+https://github.com/user-attachments/assets/54fd2a70-5c48-4f17-9367-dcd8afd60c85
 
 ## 🌟 Features
 
